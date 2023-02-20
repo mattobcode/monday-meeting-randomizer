@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monday Meeting Randomizer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Monday Meeting Randomizer</h1>
+      <div id="list-container">
+        <h2>Who is here?</h2>
+        <ul class="monday-list" id="monday-list"></ul>
+        <section>
+          <h2>Add someone:</h2>
+          <input type="text" class="new-people" id="new-people" />
+          <button type="submit" id="submit-btn">Submit</button>
+          <button type="button" id="start-btn">Start the Randomizer</button>
+        </section>
+      </div>
+      <div id="random-container">
+        <div id="moderator"></div>
+        <div id="random-names"></div>
+        <div id="emoji-area"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

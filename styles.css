@@ -1,0 +1,148 @@
+@import url('https://fonts.cdnfonts.com/css/kbsticktotheplan');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+body {
+    background-color: #fff;
+    background-image: radial-gradient(rgb(124, 124, 124) 1px, transparent 0);
+    background-size: 42px 42px;
+    background-position: -17px -17px;
+}
+
+h1 {
+    font-family: 'KBStickToThePlan', sans-serif;
+    font-size: 38px;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    margin: 0;
+}
+
+.container {
+    min-height: 100vh;
+}
+
+#list-container {
+    display: flex;
+    flex-direction: column;
+    position: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-item {
+    accent-color: #c9b8e6;
+}
+
+ul {
+    margin: 0;
+    padding: 12px;
+}
+
+li {
+    list-style-type: none;
+    font-size: 22px;
+    margin-bottom: 2px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    position: block;
+    justify-content: center;
+    align-items: center;
+    background-color: #fefefe;
+    border-radius: 4px;
+    padding: 12px;
+}
+
+input[type=text] {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 8px;
+    width: 250px;
+    transition: ease-in-out, width .35s ease-in-out;
+    border-radius: 3px;
+}
+
+input[type=text]:focus {
+    width: 250px;
+    max-width: 90vw;
+    outline: none;
+}
+
+button {
+    width: 250px;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 3px;
+    cursor: pointer;
+    max-width: 90vw;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+#submit-btn {
+    background-color: #E8DEF8;
+    margin-bottom: 2px;
+}
+
+#submit-btn:hover {
+    background-color: #c9b8e6;
+    color: #000;
+    transition: ease-in-out 1s;
+}
+
+#start-btn {
+    background-color: #6750A4;
+    color: #fff;
+    margin-top: 6px;
+}
+
+#start-btn:hover {
+    background-color: #6344b9;
+    color: #fff;
+    transition: ease-in-out 1s;
+}
+
+#random-container {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    background-color: #c9b8e6;
+    border-radius: 4px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding: 12px;
+    font-size: 22px;
+}
+
+.random-container-open {
+    height: 350px;
+}
+
+#moderator {
+    height: 25px;
+}
+
+#random-names {
+    padding: 12px;
+    font-family: 'KBStickToThePlan', sans-serif;
+    font-size: 52px;
+    text-transform: uppercase;
+}
+
+#emoji-area {
+    font-size: 72px;
+    height: 90px;
+}

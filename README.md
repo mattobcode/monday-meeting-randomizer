@@ -14,6 +14,7 @@ if people are absent.
 
 Then start the randomization and the fun begins!
 
+
 ![grafik](https://user-images.githubusercontent.com/64044820/221966615-4071a082-ea9b-403c-b83a-9a0fc8e1fbe5.png)
 
 ## License
